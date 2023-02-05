@@ -53,3 +53,30 @@ a
 */
 //let result = 1 + 2 * 3 + 4
 //console.log(result)
+
+
+
+//user input
+
+//ez way(window prompt)
+
+//let username = window.prompt("Enter your username")
+
+
+
+//hard way (html elements)
+
+
+//submit functionality
+
+
+let username;
+
+document.getElementById("Button").onclick = function(){
+    
+    username = document.getElementById("Text").value;
+    console.log(username);
+    document.getElementById("Label").innerHTML = "Hello " + username;
+}
+
+console.log(username)
