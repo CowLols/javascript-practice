@@ -1,26 +1,14 @@
-// if statement = a basic form of decision making if a condition is met.
+//checked property 
 
 
-//*let age = 1088
-//this will check if the age is equal or greater than 100.
-/*if(age >= 100){
-    console.log("This condition has been met!")
 
+document.getElementById("button").onclick = function(){
+    if(document.getElementById("checkbox").checked == true){
+        console.log("Clicked!")
+        
 
-}
-else if(age < 0){
-
-    console.log("Age is 0 or less than 0.")
-
-
-}
-else if(age >= 1000){
-
-    console.log("Extremely old")
-}   
-else{
-    console.log("This condition hasn't been met.")
+    }
+    else(console.log("Not clicked!"))
 
 
 }
-*/
