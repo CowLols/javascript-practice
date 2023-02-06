@@ -1,19 +1,17 @@
 
+let x;
+let y;
+let z;
 
-let count = 0;
 
-document.getElementById("decreasebtn").onclick = function(){
-    count-=1;
-    document.getElementById("countlabel").innerHTML = count;
+
+document.getElementById("rollbtn").onclick = function(){
+
+    x = Math.floor(Math.random() * 6) + 1;
+    y = Math.floor(Math.random() * 6) + 1;
+    z = Math.floor(Math.random() * 6) + 1;
+
+    document.getElementById("xlabel").innerHTML = x;
+    document.getElementById("ylabel").innerHTML = y;
+    document.getElementById("zlabel").innerHTML = z;
 }
-
-document.getElementById("resetbtn").onclick = function(){
-    count=0;
-    document.getElementById("countlabel").innerHTML = count;
-}
-
-document.getElementById("increasebtn").onclick = function(){
-    count+=1;
-    document.getElementById("countlabel").innerHTML = count;
-}
-
