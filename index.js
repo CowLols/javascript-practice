@@ -1,28 +1,27 @@
+//switch - a statement that examines a value
+//          for a match against many case clauses.
+//      more efficient than many "else if" statements
 
-document.getElementById("button").onclick = function(){
+let grade = ""
 
-  const checkbox = document.getElementById("checkbox")
-  const visa = document.getElementById("visa")
-  const mastercard = document.getElementById("mastercard")
-  const paypal = document.getElementById("paypal")
+switch(grade){
 
-  if(checkbox.checked){
-    console.log("clicked!")
-  }
-  else{
-    console.log("not clicked!")
-  }
+    case "a":
+        console.log("You got an A. you did great.")
+        break;
+        case "b":
+        console.log("You got a b. you did good.")
+        break;
+        case "c":
+        console.log("You got a c. you did ok.")
+        break;
+        case "d":
+        console.log("You got a d. at least you participated")
+        break;
+        case "f":
+        console.log("You got an f. you failed.")
+        break;
 
-  if(visa.checked){
-    console.log("you are using visa.")
-  }
-  else if(mastercard.checked){
-    console.log("you are using mastercard.")
-  }
-  else if(paypal.checked){
-    console.log("you are usig paypal.")
-  }
-  else{
-    console.log("you haven't selected anything.")
-  }
+    default:
+    console.log(grade, " is.... ????")
 }
