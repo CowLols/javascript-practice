@@ -1,14 +1,12 @@
-// useful string methods
+//slice extracts a section of a string and returns it as
+//a new string without modifying the original string
 
-let username = "New User";
-let id = "923977532532804"
-//console.log(username.length); //character amount
-//console.log(firstletter = username.charAt(0));
-//username.indexOf("e"); //index of the first or last occurence of a character
-//console.log(username.lastIndexOf("e")); //last occurence of "e"
-//username = username.trim(); //trim a username
-//username = username.toUpperCase(); uppercase
-//username = username.toLowerCase(); lowercase
-id = id.replace ("8", "7"); //replaces 8 with 7.
-
-console.log(id);
+let firstname = "frank";
+let lastname = "truckin";
+let fullname = "frank truckin";
+//firstname = fullname.slice(0, 5);
+//lastname = fullname.slice(6);
+console.log(firstname);
+console.log(lastname);
+firstname = fullname.slice(0,6)
+lastname = fullname.slice(fullname.indexOf(" ") + 1);
