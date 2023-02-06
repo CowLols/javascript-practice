@@ -1,13 +1,26 @@
-//method chaining - calling one method after another in one line of code.
-let username = "Arghh";
-
-//let letter = username.charAt(0);
-//letter = letter.toUpperCase ;
+// if statement = a basic form of decision making if a condition is met.
 
 
+//*let age = 1088
+//this will check if the age is equal or greater than 100.
+/*if(age >= 100){
+    console.log("This condition has been met!")
 
 
-let letter = username.charAt(0).toUpperCase().trim();
+}
+else if(age < 0){
+
+    console.log("Age is 0 or less than 0.")
 
 
-console.log(letter);
+}
+else if(age >= 1000){
+
+    console.log("Extremely old")
+}   
+else{
+    console.log("This condition hasn't been met.")
+
+
+}
+*/
