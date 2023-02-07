@@ -1,10 +1,16 @@
-// for loop - repeats code a certain amount of times.
+// break - breaks out of a loop
+// continue - skip the iteration of a loop
 
+for(let i=1; i <= 20; i+=1){
 
-for(let counter = 1000; counter > 0; counter -= 1){
-    console.log(counter)
+    if(i == 13){
+        break //exits the loop, continue will skip only that iteration.
 
 
 }
 
-console.log("Happy new year") //countdown
+
+    console.log(i)
+
+
+}
