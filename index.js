@@ -1,27 +1,23 @@
-//switch - a statement that examines a value
-//          for a match against many case clauses.
-//      more efficient than many "else if" statements
+// NOT logical operator 
+// represented by an !
+//typically used to reverse a condition's boolean value
+//true -> false false -> true
 
-let grade = ""
+let temp = 15
+let sunny = true
 
-switch(grade){
+if(!(temp > 0)){
 
-    case "a":
-        console.log("You got an A. you did great.")
-        break;
-        case "b":
-        console.log("You got a b. you did good.")
-        break;
-        case "c":
-        console.log("You got a c. you did ok.")
-        break;
-        case "d":
-        console.log("You got a d. at least you participated")
-        break;
-        case "f":
-        console.log("You got an f. you failed.")
-        break;
+    console.log("It's COLD outside.")
 
-    default:
-    console.log(grade, " is.... ????")
+}
+else{
+    console.log("It's WARM outside.")
+
+if(!(sunny)){
+    console.log("It's sunny outside.")
+}  
+    else{  console.log("It's cloudy outside.")
+}
+
 }
