@@ -1,23 +1,12 @@
-// NOT logical operator 
-// represented by an !
-//typically used to reverse a condition's boolean value
-//true -> false false -> true
+//while loop - repeat some code
+// while a condition is true
+// potentially infinite
 
-let temp = 15
-let sunny = true
+let username = ""
 
-if(!(temp > 0)){
+while(username == ""){  
 
-    console.log("It's COLD outside.")
-
+    username = window.prompt("Enter a username.")
+    
 }
-else{
-    console.log("It's WARM outside.")
-
-if(!(sunny)){
-    console.log("It's sunny outside.")
-}  
-    else{  console.log("It's cloudy outside.")
-}
-
-}
+console.log("Hello", username)
