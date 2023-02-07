@@ -1,19 +1,21 @@
-// nested loop - loop in another loop
-
-let symbol = window.prompt("Enter a symbol to use.")
-let rows = window.prompt("Enter number of rows")
-let columns = window.prompt("Enter number of columns")
-
-for(let i = 1; i <= rows; i+=1){
+//function - define code once, and use it many times
+//              to perform code, call the function name.
 
 
-    for(let j = 1; j <= columns; j+=3){
-        document.getElementById("rectangle").innerHTML += symbol;
-    
-        
-    }       
-    document.getElementById("rectangle").innerHTML += "<br>"
+alphabet()
+alphabet() //function
+
+
+
+function alphabet(){
+
+    console.log("aaaaaaaaa")
+    console.log("bbbbbbbbb")
+    console.log("ccccccccc")        //code inside a function
+    console.log("ddddddddd")
+    console.log("eeeeeeeee")
+    console.log("fffffffff")
+
 }
-   
 
 
