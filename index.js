@@ -1,12 +1,10 @@
-//while loop - repeat some code
-// while a condition is true
-// potentially infinite
+// for loop - repeats code a certain amount of times.
 
-let username = ""
 
-while(username == ""){  
+for(let counter = 1000; counter > 0; counter -= 1){
+    console.log(counter)
 
-    username = window.prompt("Enter a username.")
-    
+
 }
-console.log("Hello", username)
+
+console.log("Happy new year") //countdown
