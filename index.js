@@ -1,16 +1,19 @@
-// break - breaks out of a loop
-// continue - skip the iteration of a loop
+// nested loop - loop in another loop
 
-for(let i=1; i <= 20; i+=1){
+let symbol = window.prompt("Enter a symbol to use.")
+let rows = window.prompt("Enter number of rows")
+let columns = window.prompt("Enter number of columns")
 
-    if(i == 13){
-        break //exits the loop, continue will skip only that iteration.
+for(let i = 1; i <= rows; i+=1){
 
 
+    for(let j = 1; j <= columns; j+=3){
+        document.getElementById("rectangle").innerHTML += symbol;
+    
+        
+    }       
+    document.getElementById("rectangle").innerHTML += "<br>"
 }
+   
 
 
-    console.log(i)
-
-
-}
